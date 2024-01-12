@@ -13,7 +13,7 @@ function onMessage(e) {
 }
 
 /* Step 3: Sending out the port2 on load */
-var iframe = document.getElementById("iframe");
+var iframe = document.querySelector("#iframe");
 // Wait for the iframe to load to send the port2.
 iframe.addEventListener("load", onLoad);
 
